@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: consumer-investment-done
+
+server:
+  port: 8481
+
+lab:
+  investment-done:
+    paths:
+      client-account-base-url: "http://localhost:8381"
+
+
+application:
+  rabbitmq:
+    host: ${MUDAR_AQUI}
+    user: ${MUDAR_AQUI}
+    password: ${MUDAR_AQUI}
+
