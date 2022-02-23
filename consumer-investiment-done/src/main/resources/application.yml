@@ -13,7 +13,7 @@ lab:
 
 application:
   rabbitmq:
-    host: ${MUDAR_AQUI}
-    user: ${MUDAR_AQUI}
-    password: ${MUDAR_AQUI}
+    host: "localhost"
+    user: "guest"
+    password: "guest"
 
